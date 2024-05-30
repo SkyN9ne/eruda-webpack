@@ -1,14 +1,14 @@
 English | [中文](./README_CN.md)
 [![NPM](https://nodei.co/npm/eruda-webpack-plugin.png)](https://npmjs.org/package/eruda-webpack-plugin)
 
-# eruda-webpack-plugin
+# Eruda WebPack plugin
 A webpack plugin of [eruda](https://github.com/liriliri/eruda) to help you develop mobile app
 
 
 ## How to use
 
-```js
-npm i --save-dev eruda-webpack-plugin
+```sh
+$ npm i --save-dev eruda-webpack-plugin
 ```
 
 ```js
@@ -94,7 +94,7 @@ new ErudaWebpackPlugin({
 
 the assets which should inject `eruda` instance
 
-all `.js` assets will be injected by default
+all `*.js` assets will be injected by default
 
 ```js
 new ErudaWebpackPlugin({
